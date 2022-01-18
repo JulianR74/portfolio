@@ -1,0 +1,291 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#particles-js {
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  background-color: #3a3838;
+}
+
+.header {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.header .navbar-light .navbar-nav .nav-link.active {
+  color: #cecbcb;
+}
+
+.header .navbar-light .navbar-nav .nav-link {
+  font-size: 20px;
+  color: #cecbcb;
+}
+
+.header .header_title {
+  font-size: 15px;
+  position: absolute;
+  top: 0;
+  bottom: 20%;
+  left: 50%;
+  right: 10%;
+  margin: auto;
+  width: 220px;
+  height: 180px;
+}
+
+.header .header_title .title_h1 {
+  width: 250px;
+  font-family: 'Luxurious Roman', cursive;
+  font-size: 60px;
+  color: #ffffff;
+}
+
+.header .header_title .title_h2 {
+  width: 250px;
+  font-family: 'Luxurious Roman', cursive;
+  color: #ffffff;
+  font-size: 60px;
+}
+
+@media (max-width: 430px) {
+  .header .header_title {
+    position: absolute;
+    top: 0;
+    bottom: 80px;
+    left: 0;
+    right: 70px;
+    margin: auto;
+    width: 120px;
+    height: 80px;
+  }
+  .header .header_title .title_h1 {
+    width: 150px;
+    font-size: 30px;
+  }
+  .header .header_title .title_h2 {
+    width: 150px;
+    font-size: 30px;
+  }
+}
+
+.sobre_mi {
+  background-color: #3a3838;
+  color: #c5c5c5;
+  height: 100vh;
+  padding-top: 10vh;
+}
+
+.sobre_mi .sobre_mi_ {
+  width: 120vh;
+  height: 250px;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.sobre_mi .sobre_mi_ h3 {
+  font-size: 42px;
+  font-family: 'Luxurious Roman';
+}
+
+.sobre_mi .sobre_mi_ p {
+  font-size: 20px;
+  font-family: cursive;
+}
+
+.sobre_mi .section_habilidades {
+  width: 120vh;
+  height: 400px;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sobre_mi .section_habilidades h3 {
+  font-size: 42px;
+  font-family: 'Luxurious Roman';
+}
+
+.sobre_mi .section_habilidades img {
+  width: 800px;
+}
+
+.trabajos {
+  background-color: #3a3838;
+  color: #c5c5c5;
+  height: 100vh;
+}
+
+.trabajos .mis_trabajos {
+  width: 120vh;
+  height: 400px;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  padding-top: 15vh;
+}
+
+.trabajos .mis_trabajos h3 {
+  font-size: 52px;
+  font-family: 'Luxurious Roman';
+}
+
+.trabajos .mis_trabajos ul {
+  padding-right: 2rem;
+}
+
+.trabajos .mis_trabajos ul li {
+  font-size: 32px;
+  list-style: none;
+  text-align: center;
+}
+
+.trabajos .mis_trabajos ul li :hover {
+  color: #000000;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.trabajos .mis_trabajos ul li a {
+  text-decoration: none;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(currentColor));
+  background-image: linear-gradient(#fff, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  -webkit-transition: background-size .3s;
+  transition: background-size .3s;
+  color: #c5c5c5;
+}
+
+.trabajos .mis_trabajos ul li a:hover, .trabajos .mis_trabajos ul li a:focus {
+  background-size: 100% 2px;
+}
+
+.nav {
+  background-color: #3a3838;
+}
+
+.nav .contactos {
+  width: 120vh;
+  height: 400px;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  padding-top: 15vh;
+}
+
+.nav .contactos h3 {
+  color: #c5c5c5;
+}
+
+.nav .contactos a {
+  padding: 5px;
+}
+
+.nav .contactos a :hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+@media (max-width: 431px) {
+  .sobre_mi {
+    padding-top: 100px;
+  }
+  .sobre_mi .sobre_mi_ {
+    width: 45vh;
+    height: 260px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .sobre_mi .sobre_mi_ h3 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .sobre_mi .sobre_mi_ p {
+    font-size: 12px;
+    text-align: center;
+    width: 300px;
+  }
+  .sobre_mi .section_habilidades {
+    width: 40vh;
+    height: 300px;
+  }
+  .sobre_mi .section_habilidades img {
+    width: 300px;
+  }
+  .trabajos .mis_trabajos {
+    width: 40vh;
+  }
+}
+/*# sourceMappingURL=estilos.css.map */

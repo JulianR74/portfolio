@@ -1,0 +1,243 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#particles-js {
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    background-color: #3a3838;
+}
+
+.header {
+   // background-image: url(../imagenes/fondo-portfolio.jpg);
+   // background-color: #302b2b; 
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+      .navbar-light {
+      .navbar-nav {
+      .nav-link.active {
+          color: #cecbcb;
+      }
+      .nav-link {
+          font-size: 20px;
+          color: #cecbcb;
+      }}}
+      .header_title {
+            font-size: 15px;
+            position: absolute;
+            top: 0;
+            bottom: 20%;
+            left: 50%;
+            right: 10%;
+            margin: auto;
+            width: 220px;
+            height: 180px;
+            .title_h1 {
+                width: 250px;
+                font-family: 'Luxurious Roman', cursive;
+                font-size: 60px;
+                color: #ffffff;
+            }
+            .title_h2 {
+                width: 250px;
+                font-family: 'Luxurious Roman', cursive;
+                color: #ffffff;
+                font-size: 60px;
+            }
+        }
+}
+
+@media (max-width:430px){
+    .header .header_title {
+        position: absolute;
+        top: 0;
+        bottom: 80px;
+        left: 0;
+        right: 70px;
+        margin: auto;
+        width: 120px;
+        height: 80px;
+        .title_h1 {
+            width: 150px;
+            font-size: 30px;
+        }
+        .title_h2 {
+            width: 150px;
+            font-size: 30px;
+        }
+    }
+}
+
+
+.sobre_mi {
+    background-color: #3a3838;
+    color: #c5c5c5;
+    height: 100vh;
+    padding-top: 10vh;
+    .sobre_mi_ {
+        width: 120vh;
+        height: 250px;
+        position: relative;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        border-radius: 5%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        h3 {
+            font-size: 42px;
+            font-family: 'Luxurious Roman';
+        }
+        p {
+            font-size: 20px;
+            font-family: cursive;
+        }
+    }
+    .section_habilidades {
+        width: 120vh;
+        height: 400px;
+        position: relative;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        border-radius: 5%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        h3 {
+            font-size: 42px;
+            font-family: 'Luxurious Roman';
+        }
+        img {
+            width: 800px;
+        }
+    }
+}
+
+.trabajos {
+    background-color: #3a3838;
+    color: #c5c5c5;
+    height: 100vh;
+    .mis_trabajos {
+        width: 120vh;
+        height: 400px;
+        position: relative;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        border-radius: 5%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 15vh;
+        h3 {
+            font-size: 52px;
+            font-family: 'Luxurious Roman';
+        }
+        ul {
+            padding-right: 2rem;
+            li {
+                font-size: 32px;
+                list-style: none;
+                text-align: center;
+                :hover {
+                    color: #000000;
+                    transition: 1s;
+                }
+                a {
+                    text-decoration: none;
+                    background-image: linear-gradient(#fff, currentColor);
+                    background-position: 0% 100%;
+                    background-repeat: no-repeat;
+                    background-size: 0% 2px;
+                    transition: background-size .3s;
+                    color: #c5c5c5;
+                }
+                a:hover, a:focus {
+                    background-size: 100% 2px;
+                }
+            }
+        }
+    }
+}
+
+.nav {
+    background-color: #3a3838;
+    .contactos {
+        width: 120vh;
+        height: 400px;
+        position: relative;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        border-radius: 5%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 15vh;
+        h3 {
+            color: #c5c5c5;
+        }
+        a {
+            padding: 5px;
+            :hover {
+                transform: scale(1.2);
+                transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+                transition: 1s;
+            }
+        }
+    }
+}
+
+
+
+@media (max-width:431px){
+    .sobre_mi {
+        padding-top: 100px;
+        .sobre_mi_ {
+            width: 45vh;
+            height: 260px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            h3 {
+                font-size: 30px;
+                text-align: center;
+            }
+            p {
+                font-size: 12px;
+                text-align: center;
+                width: 300px;
+            }
+        }
+        .section_habilidades {
+            width: 40vh;
+            height: 300px;
+            img {
+                width: 300px;
+            }
+        }
+
+    }
+    .trabajos {
+        .mis_trabajos {
+            width: 40vh;
+        }
+    }
+}
